@@ -1,0 +1,27 @@
+{
+  "name": "m04_uf3",
+  "version": "1.0.0",
+  "description": "m04uf3: ReactJS Proyecto de clase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marccorteslon/M04_UF3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marccorteslon/M04_UF3/issues"
+  },
+  "homepage": "https://github.com/marccorteslon/M04_UF3#readme",
+  "devDependencies": {
+    "@testing-library/react": "^16.2.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "web-vitals": "^4.2.4"
+  }
+}
