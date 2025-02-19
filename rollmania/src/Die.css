@@ -1,0 +1,9 @@
+.Die {
+	display:flex;
+  height: 40vmin;
+  width:128px;
+	height:128px;
+	background-color:blue;
+	color:#ffffff;
+}
+
