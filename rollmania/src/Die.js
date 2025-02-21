@@ -2,17 +2,22 @@ import './Die.js';
 
 import { useState } from 'react';
 
-function Die() {
+function Die(props) {
 
-	let [number, setNumber] = useState(1);
+	let [number, setNumber] = useState("-");
+	let [roll, setRoll] = useState(false);
 
-	function roll () {
+	function set_random () {
 	let r = Math.floor(Math.random() * 6) + 1
 	setNumber(r);
 	}
 
+if (props.roll) {
+	number = get_random();
+}
+
  	return (
- 		<button className="Die" onClick={roll}>
+ 		<button className="Die" onClick={set_random}>
  		<p className="DieNumber">{number}</p>
 		</button>
  );

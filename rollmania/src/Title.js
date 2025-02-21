@@ -1,11 +1,10 @@
 import './Title.css';
-import Die from './Die.js';
 
-function Title() {
+function Title(props) {
  	return (
- 		<main className="Title">
-		<h1>Rollmania!</h1>
- 		</main>
+ 		<header className="Title">
+		<h1>{props.title_text}</h1>
+ 		</header>
  );
 }
 
